@@ -1,0 +1,93 @@
+#labanner {
+  /* Group 1 */
+  position: absolute;
+  width: 1920px;
+  height: 888.17px;
+  left: 0px;
+  top: 0px;
+  animation: fadeInAnimation ease 3s
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1; 
+     }
+}
+
+.unclickable {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none
+}
+
+#labox {
+  position: absolute;
+  width: 744px;
+  height: 187px;
+  left: 141px;
+  top: 202px;
+}
+
+.scripttext{
+  position: absolute;
+  width: 714.58px;
+  height: 112.2px;
+  left: 169.95px;
+  top: 265px;
+
+  font-family: Parkside;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 150px;
+  line-height: 72px;
+  /* or 48% */
+
+  letter-spacing: 0.05em;
+
+  color: #EAEBD5;
+}
+
+#explore {
+  position: absolute;
+  width: 244px;
+  height: 72px;
+  left: 1054px;
+  top: 459px;
+
+  font-family: Halyard Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 72px;
+  /* identical to box height, or 100% */
+
+  letter-spacing: 0.05em;
+
+  color: #EAEBD5;
+}
+#blend {
+  position: absolute;
+width: 1920px;
+height: 209.17px;
+left: 0px;
+top: 773px;
+}
+
+
+.spooky.jumbo{
+  letter-spacing: wide;
+}
+
+button.spooky{
+  padding: 40px;
+  margin: 10px;
+  border-radius: 50%;
+}
