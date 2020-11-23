@@ -1,3 +1,4 @@
+
 #labanner {
   /* Group 1 */
   position: absolute;
@@ -5,9 +6,18 @@
   height: 888.17px;
   left: 0px;
   top: 0px;
-  animation: fadeInAnimation ease 3s
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+  background-color: #2E4057;
+
+}
+
+#lamap {
+  position: absolute;
+  width: 1920px;
+  height: 902px;
+  left: 0px;
+  top: 871px;
+  background-color: #2E4057;
+  z-index: -1;
 }
 
 @keyframes fadeInAnimation {
@@ -15,7 +25,7 @@
         opacity: 0;
     }
     100% {
-        opacity: 1; 
+        opacity: 1;
      }
 }
 
@@ -75,10 +85,11 @@
 }
 #blend {
   position: absolute;
-width: 1920px;
-height: 209.17px;
-left: 0px;
-top: 773px;
+  width: 1932px;
+  height: 209.17px;
+  left: 0px;
+  top: 778px;
+  z-index: 1
 }
 
 
