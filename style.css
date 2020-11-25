@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 
 #labanner {
   /* Group 1 */
@@ -7,6 +10,7 @@
   left: 0px;
   top: 0px;
   background-color: #2E4057;
+  z-index = 4;
 
 }
 
@@ -16,8 +20,8 @@
   height: 902px;
   left: 0px;
   top: 871px;
-  background-color: #2E4057;
-  z-index: -1;
+  /* background-color: #2E4057; */
+  z-index: 2;
 }
 
 @keyframes fadeInAnimation {
@@ -89,7 +93,7 @@
   height: 209.17px;
   left: 0px;
   top: 778px;
-  z-index: 1
+  z-index: 1;
 }
 
 
