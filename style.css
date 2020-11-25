@@ -89,13 +89,42 @@ html {
 }
 #blend {
   position: absolute;
-  width: 1932px;
+  width: 1970px;
   height: 209.17px;
-  left: 0px;
+  left: -30px;
   top: 778px;
   z-index: 1;
 }
 
+.venice {
+  position: absolute;
+  width: 1920px;
+  height: 1070px;
+  left: 0px;
+  top: 1681px;
+
+  background: linear-gradient(180deg, #C4C4C4 0%, #2E4057 0%, #EAEBD5 29.35%);
+}
+
+.placetext {
+  font-family: Conglomerate;
+  font-style: normal;
+  font-weight: 467;
+  font-size: 84px;
+  line-height: 72px;
+  /* or 86% */
+
+  letter-spacing: 0.05em;
+  color: #2E4057;
+}
+
+#veniceplace {
+  position: absolute;
+  width: 673px;
+  height: 102px;
+  left: 240px;
+  top: 300px;
+}
 
 .spooky.jumbo{
   letter-spacing: wide;

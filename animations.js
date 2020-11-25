@@ -10,6 +10,13 @@ $(document).ready(function() {
     var rate = scrolled * 0.7;
 
     target.style.transform = 'translate3d(0px,'+rate+'px, 0px)'
-  })
+  });
 
+  var controller = new ScrollMagic.Controller();
+
+  var scene = new ScrollMagic.Scene({
+    triggerElement: '.venice'
+  })
+  .setTween("#veniceplace", 0.5, {color: "green"})
+  .addTo(controller);
 });
