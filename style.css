@@ -95,15 +95,47 @@ html {
   top: 778px;
   z-index: 1;
 }
-
+.grid-container {
+  display: grid;
+  grid-template-columns: 850px 850px;
+  grid-template-rows: repeat(25, 1fr);
+  grid-column-gap: 105px;
+  justify-content: center;
+}
 .venice {
   position: absolute;
   width: 1920px;
-  height: 1070px;
+  height: 2812px;
   left: 0px;
   top: 1681px;
 
   background: linear-gradient(180deg, #C4C4C4 0%, #2E4057 0%, #EAEBD5 29.35%);
+}
+
+#venicebox {
+  grid-column: 2;
+  grid-row: 3;
+  top: 300px;
+}
+
+h1 {
+  position: absolute;
+  width: 513.82px;
+  height: 111.75px;
+  left: 1032.68px;
+  top: 246.89px;
+
+  font-family: Conglomerate;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 132.488px;
+  line-height: 104px;
+  /* or 78% */
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #2E4057;
 }
 
 .placetext {
@@ -124,6 +156,7 @@ html {
   height: 102px;
   left: 240px;
   top: 300px;
+  opacity: 0%;
 }
 
 .spooky.jumbo{

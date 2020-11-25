@@ -17,6 +17,6 @@ $(document).ready(function() {
   var scene = new ScrollMagic.Scene({
     triggerElement: '.venice'
   })
-  .setTween("#veniceplace", 0.5, {color: "green"})
+  .setTween("#veniceplace", 0.5, {opacity: "100%", ease: "power1.in"})
   .addTo(controller);
 });
