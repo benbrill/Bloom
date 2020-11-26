@@ -12,11 +12,12 @@ $(document).ready(function() {
     target.style.transform = 'translate3d(0px,'+rate+'px, 0px)'
   });
 
+
   var controller = new ScrollMagic.Controller();
 
   var scene = new ScrollMagic.Scene({
     triggerElement: '.venice'
   })
-  .setTween("#veniceplace", 0.5, {opacity: "100%", ease: "power1.in"})
+  .setTween(".titlevenicebeach", 1.25, {opacity: "100%", ease: "power1.in"})
   .addTo(controller);
 });
