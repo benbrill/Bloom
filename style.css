@@ -118,7 +118,7 @@ img {
 .venice {
   position: absolute;
   width: 1920px;
-  height: 2812px;
+  height: 2412px;
   left: 0px;
   top: 1681px;
 
@@ -128,7 +128,7 @@ img {
 #venicebox {
   grid-column: 2;
   grid-row: 2;
-  margin-top: 120px;
+  margin-top: 220px;
 }
 
 .titlevenicebeach {
@@ -149,8 +149,10 @@ img {
 }
 
 #title_venice {
+  grid-column: 2;
   grid-row: 2;
   padding-left: 20px;
+  margin-top: 235px;
   /* position: absolute;
   width: 513.82px;
   height: 111.75px; */
@@ -160,7 +162,7 @@ img {
 
 #title_beach {
   grid-row: 2;
-  padding-top: 120px;
+  padding-top: 220px;
   padding-left: 370px;
 
 }
@@ -168,7 +170,7 @@ img {
 #venicetitledescrip {
   grid-column: 2;
   grid-row: 2;
-  padding-top: 330px;
+  padding-top: 430px;
 
 /* or 150% */
 
@@ -185,13 +187,25 @@ color: #000000;
 #venice_pic2 {
   grid-column: 2;
   grid-row: 2;
-  margin-top: 500px;
+  margin-top: 600px;
 }
 
 #venice_pic3 {
   grid-column: 1;
   grid-row: 2;
-  margin-top: 950px
+  margin-top: 950px;
+}
+
+#venice_pic4 {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 1400px
+}
+
+#venice_pic5 {
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: 1800px
 }
 
 .venice_descript {
@@ -208,7 +222,26 @@ color: #000000;
 #venicedescipt2 {
   grid-column: 2;
   grid-row: 2;
-  padding-top: 1100px;
+  padding-top: 1135px;
+}
+
+#venicedescipt3 {
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: 1600px;
+}
+
+#venicedescript4 {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 2000px;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.descriptitalic {
+  font-style: italic;
+  font-weight: 400;
 }
 
 .venice_emphasis {
@@ -228,6 +261,16 @@ color: #000000;
 
   letter-spacing: 0.05em;
   color: #2E4057;
+}
+
+.SM_Parallax {
+  position: absolute;
+  width: 1920px;
+  height: 2412px;
+  left: 0px;
+  top: 4090px;
+
+  background-color: : "blue";
 }
 
 
